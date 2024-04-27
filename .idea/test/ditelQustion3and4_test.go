@@ -44,3 +44,20 @@ func FindTwoLargestNumber(numbers []int) (int, int) {
 	return largest1, largest2
 
 }
+func TestISPalindrum(t *testing.T) {
+	expected := true
+	actual := IsPalindrum("madam")
+	if actual != expected {
+		t.Errorf("Expected %t, got %t", expected, actual)
+	}
+}
+
+func IsPalindrum(s string) bool {
+	for count, j := 0, len(s)-1; count < j; count, j = count+1, j-1 {
+		if s[count] != s[j] {
+			return false
+		}
+	}
+	return true
+
+}

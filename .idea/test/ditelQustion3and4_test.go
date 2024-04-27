@@ -61,3 +61,29 @@ func IsPalindrum(s string) bool {
 	return true
 
 }
+
+func TestToFindMinMaxAndSum(t *testing.T) {
+	numbers := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	expected := []int{1, 10, 55}
+	min, max, sum := FindMinMaxAndSum(numbers)
+	if min != expected[0] || max != expected[1] || sum != expected[2] {
+		t.Errorf("Expected %d, %d, %d, got %d, %d, %d", expected[0], expected[1], expected[2], min, max, sum)
+	}
+
+}
+
+func FindMinMaxAndSum(numbers []int) (int, int, int) {
+	min := numbers[0]
+	max := numbers[0]
+	sum := 0
+	for _, v := range numbers {
+		if v < min {
+			min = v
+		} else if v > max {
+			max = v
+		}
+		sum += v
+	}
+	return min, max, sum
+
+}

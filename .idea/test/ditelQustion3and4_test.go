@@ -87,3 +87,22 @@ func FindMinMaxAndSum(numbers []int) (int, int, int) {
 	return min, max, sum
 
 }
+
+func TestToFindAndSumNumbersFrom1To30ThatAreDivisibleBy3(t *testing.T) {
+	expected := 165
+	actual := FindAndSumNumbersFrom1To30ThatAreDivisibleBy3()
+	if actual != expected {
+		t.Errorf("Expected %d, got %d", expected, actual)
+	}
+}
+
+func FindAndSumNumbersFrom1To30ThatAreDivisibleBy3() int {
+	sum := 0
+	for count := 1; count <= 30; count++ {
+		if count%3 == 0 {
+			sum += count
+		}
+	}
+	return sum
+
+}

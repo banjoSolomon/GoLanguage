@@ -1,6 +1,9 @@
 package main
 
-import "testing"
+import (
+	"strings"
+	"testing"
+)
 
 func TestFindLargestNumber1To10(t *testing.T) {
 	expected := 10
@@ -104,5 +107,73 @@ func FindAndSumNumbersFrom1To30ThatAreDivisibleBy3() int {
 		}
 	}
 	return sum
+
+}
+
+func TestTrinagePrinting(t *testing.T) {
+	expected := "   *\n  ***\n *****\n*******\n"
+	actual := TrianglePrinting()
+	if actual != expected {
+		t.Errorf("Expected:\n%sGot:\n%s", expected, actual)
+	}
+}
+
+func TrianglePrinting() string {
+	var result strings.Builder
+
+	for count := 1; count <= 4; count++ {
+
+		for j := 1; j <= 4-count; j++ {
+			result.WriteString(" ")
+		}
+
+		for j := 1; j <= 2*count-1; j++ {
+			result.WriteString("*")
+		}
+
+		result.WriteString("\n")
+	}
+
+	return result.String()
+}
+
+func TestToPrintADiamoundShape(t *testing.T) {
+	expected := "   *\n  ***\n *****\n*******\n *****\n  ***\n   *\n"
+	actual := DiamondPrinting()
+	if actual != expected {
+		t.Errorf("Expected:\n%sGot:\n%s", expected, actual)
+	}
+}
+
+func DiamondPrinting() string {
+	var result strings.Builder
+
+	for count := 1; count <= 4; count++ {
+
+		for j := 1; j <= 4-count; j++ {
+			result.WriteString(" ")
+		}
+
+		for j := 1; j <= 2*count-1; j++ {
+			result.WriteString("*")
+		}
+
+		result.WriteString("\n")
+	}
+
+	for count := 3; count >= 1; count-- {
+
+		for j := 1; j <= 4-count; j++ {
+			result.WriteString(" ")
+		}
+
+		for j := 1; j <= 2*count-1; j++ {
+			result.WriteString("*")
+		}
+
+		result.WriteString("\n")
+	}
+
+	return result.String()
 
 }

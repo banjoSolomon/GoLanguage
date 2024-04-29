@@ -145,6 +145,21 @@ func TestToPrintADiamoundShape(t *testing.T) {
 	}
 }
 
+func TestToAddTwoNumbersWIthoutPLus(t *testing.T) {
+	expected := 6
+	actual := SumNumber()
+	if actual != expected {
+		t.Errorf("Expected:\n%dGot:\n%d", expected, actual)
+	}
+
+}
+
+func SumNumber() int {
+	numbers := 5
+	numbers2 := 1
+	return numbers - (-numbers2)
+
+}
 func DiamondPrinting() string {
 	var result strings.Builder
 

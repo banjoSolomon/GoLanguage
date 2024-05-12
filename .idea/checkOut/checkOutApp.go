@@ -2,34 +2,40 @@ package main
 
 import (
 	"fmt"
+	"strings"
 	"time"
 )
-
-func main() {
-	var cart ShoppingCart
-	var customerName string
-	fmt.Print("What is the customer's name ")
-	fmt.Scanln(&customerName)
-
-	addItemsToCart(&cart)
-	var cashierName string
-	var discount float64
-	fmt.Print("What is your name? ")
-	fmt.Scanln(&cashierName)
-	fmt.Print("How much discount will you applay? (%) ")
-	fmt.Scanln(&discount)
-
-	printInvoice(cashierName, cashierName, cart, discount)
-
-}
 
 type Item struct {
 	Name     string
 	Price    float64
 	Quantity int
 }
+
 type ShoppingCart struct {
 	Items []Item
+}
+
+func main() {
+	var cart ShoppingCart
+	var customerName string
+
+	fmt.Println("WELCOME TO SEMICOLON CHECKOUT APP")
+	fmt.Print("What is the customer's name: ")
+	fmt.Scanln(&customerName)
+
+	addItemsToCart(&cart)
+
+	var cashierName string
+	var discount float64
+
+	fmt.Print("What is your name? ")
+	fmt.Scanln(&cashierName)
+
+	fmt.Print("How much discount will you apply? (%) ")
+	fmt.Scanln(&discount)
+
+	printInvoice(customerName, cashierName, cart, discount)
 }
 
 func addItemsToCart(cart *ShoppingCart) {
@@ -38,23 +44,26 @@ func addItemsToCart(cart *ShoppingCart) {
 		var price float64
 		var quantity int
 
-		fmt.Print("What did the customer buy? ")
+		fmt.Println("What did the customer buy? ")
 		fmt.Scanln(&itemName)
-		fmt.Print("How much per unit?")
+
+		fmt.Println("How much per unit?")
 		fmt.Scanln(&price)
-		fmt.Print("How many pieces?")
+
+		fmt.Println("How many pieces?")
 		fmt.Scanln(&quantity)
 
 		item := Item{Name: itemName, Price: price, Quantity: quantity}
 		cart.Items = append(cart.Items, item)
+
 		var addMoreItems string
 		fmt.Print("Add more items? Type 'yes' or 'no': ")
 		fmt.Scanln(&addMoreItems)
-		if addMoreItems != "yes" {
+
+		if strings.ToLower(addMoreItems) != "yes" {
 			break
 		}
 	}
-
 }
 
 func calculateSubtotal(cart ShoppingCart) float64 {
@@ -67,7 +76,6 @@ func calculateSubtotal(cart ShoppingCart) float64 {
 
 func calculateDiscount(subtotal float64, discount float64) float64 {
 	return (discount / 100) * subtotal
-
 }
 
 func calculateTotal(subtotal float64, discount float64) float64 {
@@ -83,19 +91,21 @@ func printInvoice(customerName string, cashierName string, cart ShoppingCart, di
 	fmt.Println("         LOCATION: 321, HERBERT MACAULAY WAY, SABO, YABA, LAGOS.")
 	fmt.Println("                    TELL: 03293828343                           ")
 	fmt.Println("================================================================")
-	fmt.Println("Date: %s\n", time.Now().Format("2006-01-02 15:04:05"))
-	fmt.Println("Casher: %s\n", cashierName)
-	fmt.Println("Customer: %s\n", customerName)
+	fmt.Printf("Date: %s\n", time.Now().Format("2006-01-02 15:04:05"))
+	fmt.Printf("Cashier: %s\n", cashierName)
+	fmt.Printf("Customer: %s\n", customerName)
 	fmt.Println("================================================================")
-	fmt.Println(" ITEM \\t\\tPRICE \\t\\tQTY \\t\\tTOTAL(NGN)")
+	fmt.Println(" ITEM \t\tPRICE \t\tQTY \t\tTOTAL(NGN)")
 	fmt.Println("----------------------------------------------------------------")
 
 	subtotal := calculateSubtotal(cart)
 	discountAmount := calculateDiscount(subtotal, discount)
 	total := calculateTotal(subtotal, discount)
+
 	for _, item := range cart.Items {
 		fmt.Printf("%s\t\t%.2f\t\t%d\t\t%.2f\n", item.Name, item.Price, item.Quantity, item.Price*float64(item.Quantity))
 	}
+
 	fmt.Println("--------------------------------------------------")
 	fmt.Printf("\t\tSub Total:         %.2f\n", subtotal)
 	fmt.Printf("\t\tDiscount:          %.2f\n", discountAmount)
@@ -105,5 +115,4 @@ func printInvoice(customerName string, cashierName string, cart ShoppingCart, di
 	fmt.Println("==================================================")
 	fmt.Println("       THIS IS NOT A RECEIPT - KINDLY PAY        ")
 	fmt.Println("==================================================")
-
 }

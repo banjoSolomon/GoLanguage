@@ -4,29 +4,177 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5012b6a1-d183-46f2-96f2-81e3c0dcc2ab" name="Changes" comment="" />
+    <list default="true" id="5012b6a1-d183-46f2-96f2-81e3c0dcc2ab" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoLagTask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GoLagTask.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.22.2" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;banjoSolomon&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/banjoSolomon/GoLanguage.git&quot;,
+    &quot;accountId&quot;: &quot;a0594108-08f9-4d4c-91f4-618f2de38a29&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2g8fAA27zxOhpMvS6MigEscgoXc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
-    "go.import.settings.migrated": "true",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
+    &quot;Go Build.go build GoLagTask/.idea.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build GoLagTask/.idea/ditel_chapter3-4execsices.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build GoLagTask/.idea/myExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build creditLimitCalculator.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build example3.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build example5.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build example6.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build example7.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build example8.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build exmaple2.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build exmaple4.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build functions.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build taskCollector.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestAverage in GoLagTask/.idea.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestAverage in GoLagTask/.idea/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCalculateMPG in GoLagTask/.idea/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestFindLargestNumber1To10 in GoLagTask/.idea/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestISPalindrum in GoLagTask/.idea/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestTOFindTwoLargestNumbers in GoLagTask/.idea/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestToAddTwoNumbersWIthoutPLus in GoLagTask/.idea/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestToFindAndSumNumbersFrom1To30ThatAreDivisibleBy3 in GoLagTask/.idea/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestToFindMinMaxAndSum in GoLagTask/.idea/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestToPrintADiamoundShape in GoLagTask/.idea/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestTrinagePrinting in GoLagTask/.idea/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.go test GoLagTask/.idea/test.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.math_test.go.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;go.vgo&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\IdeaProjects\GoLagTask\.idea\myExamples" />
+      <recent name="C:\Users\DELL\IdeaProjects\GoLagTask\.idea\test" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build GoLagTask/.idea/myExamples" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoLagTask" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="GoLagTask/.idea/myExamples" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/.idea/myExamples/example6.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build exmaple2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="GoLagTask" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="GoLagTask" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/.idea/exmaple2.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestToAddTwoNumbersWIthoutPLus in GoLagTask/.idea/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoLagTask" />
+      <working_directory value="$PROJECT_DIR$/.idea/test" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="GoLagTask/.idea/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestToAddTwoNumbersWIthoutPLus\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestToPrintADiamoundShape in GoLagTask/.idea/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoLagTask" />
+      <working_directory value="$PROJECT_DIR$/.idea/test" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="GoLagTask/.idea/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestToPrintADiamoundShape\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestTrinagePrinting in GoLagTask/.idea/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoLagTask" />
+      <working_directory value="$PROJECT_DIR$/.idea/test" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="GoLagTask/.idea/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestTrinagePrinting\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test GoLagTask/.idea/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoLagTask" />
+      <working_directory value="$PROJECT_DIR$/.idea/test" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="GoLagTask/.idea/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build GoLagTask/.idea/myExamples" />
+        <item itemvalue="Go Test.TestToAddTwoNumbersWIthoutPLus in GoLagTask/.idea/test" />
+        <item itemvalue="Go Test.go test GoLagTask/.idea/test" />
+        <item itemvalue="Go Test.TestToPrintADiamoundShape in GoLagTask/.idea/test" />
+        <item itemvalue="Go Test.TestTrinagePrinting in GoLagTask/.idea/test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,14 +191,168 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714207886940</updated>
-      <workItem from="1714207888597" duration="8000" />
+      <workItem from="1714207888597" duration="48713000" />
+      <workItem from="1715084033878" duration="3371000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714220623466</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714220623466</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714220760394</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714220760394</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714221394962</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714221394962</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714228150039</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714228150039</updated>
+    </task>
+    <task id="LOCAL-00005" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714230213778</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714230213778</updated>
+    </task>
+    <task id="LOCAL-00006" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714234262196</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714234262196</updated>
+    </task>
+    <task id="LOCAL-00007" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714236663416</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714236663416</updated>
+    </task>
+    <task id="LOCAL-00008" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714241145890</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714241145890</updated>
+    </task>
+    <task id="LOCAL-00009" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714243594357</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714243594357</updated>
+    </task>
+    <task id="LOCAL-00010" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714245096089</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714245096089</updated>
+    </task>
+    <task id="LOCAL-00011" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714245222279</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714245222279</updated>
+    </task>
+    <task id="LOCAL-00012" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714246911339</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714246911339</updated>
+    </task>
+    <task id="LOCAL-00013" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714256053903</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714256053903</updated>
+    </task>
+    <task id="LOCAL-00014" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714256079714</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714256079714</updated>
+    </task>
+    <task id="LOCAL-00015" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714256783150</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714256783150</updated>
+    </task>
+    <task id="LOCAL-00016" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714257200716</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1714257200716</updated>
+    </task>
+    <task id="LOCAL-00017" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714334870700</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1714334870701</updated>
+    </task>
+    <task id="LOCAL-00018" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1714405123171</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1714405123171</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

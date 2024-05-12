@@ -87,9 +87,9 @@ func calculateTotal(subtotal float64, discount float64) float64 {
 func printInvoice(customerName string, cashierName string, cart ShoppingCart, discount float64) {
 	fmt.Println("================================================================")
 	fmt.Println("                 SEMICOLON STORES                               ")
-	fmt.Println("                  MAIN BRANCH                                   ")
+	fmt.Println("                 MAIN BRANCH                                   ")
 	fmt.Println("         LOCATION: 321, HERBERT MACAULAY WAY, SABO, YABA, LAGOS.")
-	fmt.Println("                    TELL: 03293828343                           ")
+	fmt.Println("                 TELL: 03293828343                           ")
 	fmt.Println("================================================================")
 	fmt.Printf("Date: %s\n", time.Now().Format("2006-01-02 15:04:05"))
 	fmt.Printf("Cashier: %s\n", cashierName)

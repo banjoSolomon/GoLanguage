@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5012b6a1-d183-46f2-96f2-81e3c0dcc2ab" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/checkOut/checkOutApp.go" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkOut/checkOutApp.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoLagTask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GoLagTask.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +37,10 @@
     &quot;accountId&quot;: &quot;a0594108-08f9-4d4c-91f4-618f2de38a29&quot;
   }
 }</component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2g8fAA27zxOhpMvS6MigEscgoXc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -165,15 +165,6 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Go Build.go build GoLagTask/.idea/myExamples" />
-        <item itemvalue="Go Test.TestToAddTwoNumbersWIthoutPLus in GoLagTask/.idea/test" />
-        <item itemvalue="Go Test.go test GoLagTask/.idea/test" />
-        <item itemvalue="Go Test.TestToPrintADiamoundShape in GoLagTask/.idea/test" />
-        <item itemvalue="Go Test.TestTrinagePrinting in GoLagTask/.idea/test" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -193,6 +184,8 @@
       <updated>1714207886940</updated>
       <workItem from="1714207888597" duration="48713000" />
       <workItem from="1715084033878" duration="3371000" />
+      <workItem from="1715503853942" duration="1351000" />
+      <workItem from="1715509253318" duration="873000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -338,11 +331,22 @@
       <option name="project" value="LOCAL" />
       <updated>1714405123171</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1715504004075</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1715504004075</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.go" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />

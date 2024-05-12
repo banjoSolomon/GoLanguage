@@ -20,7 +20,7 @@ func main() {
 	var cart ShoppingCart
 	var customerName string
 
-	fmt.Println("WELCOME TO SEMICOLON CHECKOUT APP")
+	fmt.Println("WELCOME TO SEMICOLON CHECKOUT APP :)")
 	fmt.Print("What is the customer's name: ")
 	fmt.Scanln(&customerName)
 
@@ -32,7 +32,7 @@ func main() {
 	fmt.Print("What is your name? ")
 	fmt.Scanln(&cashierName)
 
-	fmt.Print("How much discount will you apply? (%) ")
+	fmt.Print("How much discount will you apply?: ")
 	fmt.Scanln(&discount)
 
 	printInvoice(customerName, cashierName, cart, discount)
